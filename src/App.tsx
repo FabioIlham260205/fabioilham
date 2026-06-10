@@ -124,7 +124,7 @@ export default function App() {
               {/* Rounded image frame with shadow & zoom on hover */}
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-white bg-white shadow-2xl transition-transform duration-500 ease-out group-hover:scale-105">
                 <img
-                  src="/fotobio.jpeg"
+                  src="/fotobioo.jpeg"
                   alt="Foto profil Fabio Ilham Muhammad"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
