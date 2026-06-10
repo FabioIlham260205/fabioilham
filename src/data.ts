@@ -1,5 +1,3 @@
-import allinolImg from "./assets/images/allinol.jpeg";
-
 export interface Skill {
   name: string;
   category: string;
@@ -104,7 +102,7 @@ export const projectsData: Project[] = [
     title: "Allinol",
     description: "Prototype platform jual minyak jelantah berbasis Web3 & AI, membuat dari business plan dan hingga desain UI/UX dari Figma.",
     tech: ["Figma", "UI/UX Design"],
-    image: allinolImg,
+    image: "/allinol.jpeg",
     liveUrl: "https://www.figma.com/proto/sevtbxGP1TLYHr4bzsRb4r/Allinol?page-id=121%3A62&node-id=685-5305&p=f&viewport=-409%2C990%2C0.13&t=GK6IKZ1P26Owh18A-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=685%3A5330&show-proto-sidebar=1",
     FigmaUrl: "https://www.figma.com/design/sevtbxGP1TLYHr4bzsRb4r/Allinol?node-id=121-62&t=hA0Jil7ZVd1Kc9bc-1"
   },
