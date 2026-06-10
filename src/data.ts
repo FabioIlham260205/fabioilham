@@ -105,23 +105,5 @@ export const projectsData: Project[] = [
     image: "/allinol.jpeg",
     liveUrl: "https://www.figma.com/proto/sevtbxGP1TLYHr4bzsRb4r/Allinol?page-id=121%3A62&node-id=685-5305&p=f&viewport=-409%2C990%2C0.13&t=GK6IKZ1P26Owh18A-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=685%3A5330&show-proto-sidebar=1",
     FigmaUrl: "https://www.figma.com/design/sevtbxGP1TLYHr4bzsRb4r/Allinol?node-id=121-62&t=hA0Jil7ZVd1Kc9bc-1"
-  },
-  {
-    id: "2",
-    title: "E-Commerce FreshMarket",
-    description: "Platform toko kelontong online yang berfokus pada sayuran segar dan bahan pangan lokal, terintegrasi dengan pemetaan kurir real-time dan gateway pembayaran online simulasi.",
-    tech: ["PHP Native", "JavaScript", "MySQL", "Tailwind CSS"],
-    image: "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&q=80&w=800",
-    liveUrl: "https://github.com/fabioilham",
-    githubUrl: "https://github.com/fabioilham"
-  },
-  {
-    id: "3",
-    title: "Desain Sistem Konsultasi Medis CareGo",
-    description: "Purwarupa high-fidelity aplikasi mobile info kesehatan dan booking janji dokter digital dengan riset user-persona yang mendalam, kuesioner pengguna, dan pengujian kegunaan.",
-    tech: ["Figma", "UI/UX Design", "User Research", "Wireframing"],
-    image: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800",
-    liveUrl: "https://github.com/fabioilham",
-    githubUrl: "https://github.com/fabioilham"
   }
 ];
