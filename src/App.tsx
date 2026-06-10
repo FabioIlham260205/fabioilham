@@ -26,6 +26,10 @@ import {
   Project 
 } from "./data";
 
+// 1. Meng-import gambar agar ikut dikompilasi oleh Vite untuk production Vercel
+import fotoBio from "./assets/images/fotobio.jpeg";
+import fotoMalang from "./assets/images/malang.jpeg";
+
 export default function App() {
   // Scroll and UI states
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -124,7 +128,7 @@ export default function App() {
               {/* Rounded image frame with shadow & zoom on hover */}
               <div className="relative w-64 h-64 sm:w-72 sm:h-72 lg:w-80 lg:h-80 rounded-full overflow-hidden border-4 border-white bg-white shadow-2xl transition-transform duration-500 ease-out group-hover:scale-105">
                 <img
-                  src="/src/assets/images/fotobioo.png.jpeg"
+                  src={fotoBio}
                   alt="Foto profil Fabio Ilham Muhammad"
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover"
@@ -214,7 +218,7 @@ export default function App() {
             <div className="lg:col-span-5 space-y-8">
               <div className="relative w-full rounded-2xl overflow-hidden aspect-video shadow-md border-4 border-white bg-slate-100">
                 <img 
-                  src="Malang.jpg" 
+                  src={fotoMalang} 
                   alt="Pemandangan Malang, Jawa Timur" 
                   referrerPolicy="no-referrer"
                   className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
